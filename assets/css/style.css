@@ -7,12 +7,6 @@ body   {
   background-color: #ecebf0;
 }
 
-.navigation-menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .menuBg {
   margin-top: -30px;
   padding: 10px;
@@ -22,4 +16,19 @@ body   {
 .menu {
   color: #ffffff;
   text-decoration: none;
+}
+
+.menu:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.collection1Bg{
+  padding: 10px 
+}
+
+.specialBg {
+  background-color: #3c160d;
+  color: #ffffff;
+  padding: 10px;
 }
