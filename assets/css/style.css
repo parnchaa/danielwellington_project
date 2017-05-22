@@ -24,11 +24,23 @@ body   {
 }
 
 .collection1Bg{
-  padding: 10px 
+  padding: 10px;
 }
 
 .specialBg {
   background-color: #3c160d;
   color: #ffffff;
-  padding: 10px;
+  padding: 20px 0px 20px 0px;
+}
+
+.contactBg {
+  background-color: #7e6e45;
+  color: #ffffff;
+  padding: 20px 0px 20px 0px;
+}
+
+.copyright {
+  background-color: #ecebf0;
+  color: #303030;
+  padding-top: 10px;
 }
