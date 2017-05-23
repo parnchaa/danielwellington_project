@@ -10,6 +10,7 @@
     <STRAPWIDTH>Mesh</STRAPWIDTH>
     <STRAPCOLOR>Rose Gold</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+    <IMAGE>petit-melrose-white-l.png</IMAGE>
   </WATCH>
 
     <WATCH>
@@ -22,6 +23,7 @@
     <STRAPWIDTH>Leather</STRAPWIDTH>
     <STRAPCOLOR>Dark Brown</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+   <IMAGE>cl36-bristol-rg_2.png</IMAGE>
   </WATCH>
 
       <WATCH>
@@ -34,6 +36,7 @@
     <STRAPWIDTH>Leather</STRAPWIDTH>
     <STRAPCOLOR>Black</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+    <IMAGE>dw-classic-black-sheffield-40mm-rosegold.png</IMAGE>
   </WATCH>
 
     <WATCH>
@@ -46,6 +49,7 @@
     <STRAPWIDTH>Leather</STRAPWIDTH>
     <STRAPCOLOR>Brown</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+    <IMAGE>cy26-stmawes-rg_2.png</IMAGE>
   </WATCH>
 
 
@@ -59,6 +63,7 @@
     <STRAPWIDTH>Leather</STRAPWIDTH>
     <STRAPCOLOR>Light Brown</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+   <IMAGE>dp38-durham-rg_2.png</IMAGE>
   </WATCH>
 
         <WATCH>
@@ -71,6 +76,7 @@
     <STRAPWIDTH>Nato</STRAPWIDTH>
     <STRAPCOLOR>Blue/Red/Star</STRAPCOLOR>
     <WATERRESISTANT>3 ATM</WATERRESISTANT>
+   <IMAGE>cl36-canterbury-rg.png</IMAGE>
   </WATCH>
 
   
