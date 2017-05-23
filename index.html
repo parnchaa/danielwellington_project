@@ -10,6 +10,7 @@
     <link rel="stylesheet" text="text/css" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>DANIEL WELLINGTON</title>
@@ -55,16 +56,16 @@
                 <p>Classic Petite Melrose | 32 MM</p>
                 <p>Price : 6250 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item1">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(1)" data-toggle="modal" data-target="#item1">Buy Now</button>
                 </div>
                 <div class="modal fade" id="item1" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title1" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail1" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
@@ -81,16 +82,16 @@
                 <p>Classic Bristol | 36 MM</p>
                 <p>Price : 7150 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item2">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(2)" data-toggle="modal" data-target="#item2">Buy Now</button>
                 </div>
-                <div class="modal " id="item2" role="dialog">
+                <div class="modal fade" id="item2" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title2" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail2" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
@@ -107,16 +108,16 @@
                 <p>Classic Black Sheffield | 40 MM</p>
                 <p>Price : 8250 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item3">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(3)" data-toggle="modal" data-target="#item3">Buy Now</button>
                 </div>
                 <div class="modal fade" id="item3" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title3" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail3" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
@@ -153,16 +154,16 @@
                 <p>Classy St Mawes | 26 MM</p>
                 <p>Price : 5250 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item4">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(4)" data-toggle="modal" data-target="#item4">Buy Now</button>
                 </div>
                 <div class="modal fade" id="item4" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title4" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail4" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
@@ -179,16 +180,16 @@
                 <p>Dapper Durham | 38 MM</p>
                 <p>Price : 7750 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item5">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(5)" data-toggle="modal" data-target="#item5">Buy Now</button>
                 </div>
                 <div class="modal fade" id="item5" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title5" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail5" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
@@ -205,16 +206,16 @@
                 <p>Classic Canterbury | 36 MM</p>
                 <p>Price : 6250 baht</p>
                 <div class="col-md-offset-4 col-md-4">
-                    <button type="button" class="btn btn-large btn-block btn-default" data-toggle="modal" data-target="#item6">Buy Now</button>
+                    <button type="button" class="btn btn-large btn-block btn-default" onclick="showDetail(6)" data-toggle="modal" data-target="#item6">Buy Now</button>
                 </div>
                 <div class="modal fade" id="item6" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Product Name</h4>
+                                <h4 id="title6" class="modal-title">Product Name</h4>
                             </div>
-                            <div class="modal-body">
+                            <div id="detail6" class="modal-body">
                                 <p>something here ka sis jub jub</p>
                             </div>
                             <div class="modal-footer">
